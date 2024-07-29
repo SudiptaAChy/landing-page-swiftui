@@ -14,6 +14,7 @@
 		018138412C56527200124CB2 /* LandingPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018138402C56527200124CB2 /* LandingPageTests.swift */; };
 		0181384B2C56527200124CB2 /* LandingPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181384A2C56527200124CB2 /* LandingPageUITests.swift */; };
 		0181384D2C56527200124CB2 /* LandingPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181384C2C56527200124CB2 /* LandingPageUITestsLaunchTests.swift */; };
+		0181385B2C56531100124CB2 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181385A2C56531100124CB2 /* LandingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		018138462C56527200124CB2 /* LandingPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandingPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0181384A2C56527200124CB2 /* LandingPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageUITests.swift; sourceTree = "<group>"; };
 		0181384C2C56527200124CB2 /* LandingPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0181385A2C56531100124CB2 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0181382E2C56527100124CB2 /* LandingPage */ = {
 			isa = PBXGroup;
 			children = (
+				018138592C5652B400124CB2 /* LandingScreens */,
 				0181382F2C56527100124CB2 /* LandingPageApp.swift */,
 				018138312C56527100124CB2 /* ContentView.swift */,
 				018138332C56527100124CB2 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				0181384C2C56527200124CB2 /* LandingPageUITestsLaunchTests.swift */,
 			);
 			path = LandingPageUITests;
+			sourceTree = "<group>";
+		};
+		018138592C5652B400124CB2 /* LandingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0181385A2C56531100124CB2 /* LandingScreen.swift */,
+			);
+			path = LandingScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018138322C56527100124CB2 /* ContentView.swift in Sources */,
+				0181385B2C56531100124CB2 /* LandingScreen.swift in Sources */,
 				018138302C56527100124CB2 /* LandingPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
